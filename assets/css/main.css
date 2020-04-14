@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Generali */
+body {
+    font-family: sans-serif;
+}
+
+
+/* Header */
+
+header {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+
+/* Navbar  generals */
+.navbar,
+.navbar-left,
+.navbar-right{
+    display: flex;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+.navbar-left,
+.navbar-right {
+    list-style: none;
+    align-items: center;
+    font-size: 14px;
+}
+
+.navbar-left li,
+.navbar-right li {
+    margin-left: 20px;;
+}
+
+.navbar-left a,
+.navbar-right a {
+    text-decoration: none;
+    color: #888;
+}
+
+/* Navbar left */
+.navbar-left {
+    text-transform: uppercase;
+}
+
+.navbar-left .color-dark {
+    color: #333;
+}
+
+.navbar img {
+    width: 100px;
+}
+
+/* Navbar right */
+a.btn {
+    padding: 10px 20px;
+    background: #eb2b8d;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.navbar-right i {
+    margin-left: 3px;
+    font-size: 10px;
+    color: #333;
+}
+
+/* Dropdown Menu */
